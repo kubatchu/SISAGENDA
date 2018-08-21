@@ -16,7 +16,9 @@ public class TC_66 {
 		cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
 		WebDriver driver = new InternetExplorerDriver(cap);
 		driver.get("http://smsisagendadeveloper.amil.com.br/SisAgenda/");
-		 
+		/////////////////
+		
+		 System.out.println("hello");
 		
 	}
 }

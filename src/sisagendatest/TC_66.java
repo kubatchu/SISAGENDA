@@ -17,7 +17,7 @@ public class TC_66 {
 		WebDriver driver = new InternetExplorerDriver(cap);
 		driver.get("http://smsisagendadeveloper.amil.com.br/SisAgenda/");
 		/////////////////
-		
+		System.out.println("Test Push from Suresh machine");
 		 System.out.println("hello");
 		
 	}
